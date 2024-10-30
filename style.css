@@ -1,0 +1,55 @@
+@font-face {
+    font-family: FunFont;
+    src: url(super-funtime-font/SuperFuntime-3zpLX.ttf);
+  }
+@font-face {
+  font-family: SparklyFont;
+  src: url(sparky-stones-font/SparkyStonesRegular-BW6ld.ttf);
+}
+
+body{ 
+  font-family:FunFont, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(241, 255, 241);
+
+}
+
+.content-size {
+  width:700px;
+}
+.max-size {
+  width:max-content;
+}
+
+nav li {
+  list-style-type: none;
+  color:rgb(90, 54, 54);
+  display: inline-block;
+  font-size: 250%;
+  margin-top: 4%;
+  margin-right: 3%;
+  margin-left: 3%;
+
+  
+
+}
+nav a {
+  color:rgb(90, 54, 54);
+
+}
+nav a:hover {
+  color:rgb(88, 8, 8);
+}
+
+p {
+  font-family: SparklyFont;
+}
+img {
+  border-radius: 5px;
+}
+.logo {
+  height: 100%;
+  width:100%;
+}
+.gallery {
+  margin:1%;
+}
